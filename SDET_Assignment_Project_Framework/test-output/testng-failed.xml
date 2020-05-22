@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appURL" value="https://demoqa.com/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BaseExecutor.Runner">
+        <methods>
+          <include name="testDemoQA2"/>
+          <include name="getResult"/>
+          <include name="deleteCookies"/>
+          <include name="endreport"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="startReport"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- BaseExecutor.Runner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
