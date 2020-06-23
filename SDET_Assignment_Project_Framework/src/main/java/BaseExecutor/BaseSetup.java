@@ -25,6 +25,7 @@ public class BaseSetup {
 		return driver;
 		
 	}
+	//Setdriver
 	private void setDriver(String browserType, String appURL) throws Exception {
 		System.out.println(browserType);
 		switch (browserType) {
